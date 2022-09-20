@@ -1,0 +1,569 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+    height: 95vh;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-twitter {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.twitter-art {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/bg-twitter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+
+.twitter-art img {
+    width: 400px;
+    height: 400px;
+    padding: 34px;
+}
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000;
+    padding: 50px 0 50px 36px;
+    width: 50%;
+}
+
+.logo {
+    font-size: 45px;
+    color: rgb(214, 217, 219);
+
+}
+
+.landing-page h1 {
+    font-size: 70px;
+    color: rgb(231, 233, 234);
+    padding-top: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.landing-page h3 {
+    font-size: 31px;
+    color: rgb(231, 233, 234);
+    padding: 50px 0 24px 0;
+}
+
+.btn-white img {
+    width: 15px;
+    margin-right: 7px;
+}
+
+#google-logo {
+    width: 19px;
+    margin-right: 8px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.info .btn-white {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    width: 300px;
+    background-color: #FFF;
+    border: none;
+    margin-top: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.info p {
+    margin: 0;
+}
+
+.btn-apple {
+    font-size: 14px;
+}
+
+.btn-apple:hover {
+    background-color: rgb(229, 229, 229);
+}
+
+.alternative {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin: 8px 0;
+}
+
+.line {
+    width: 132px;
+    background-color: rgb(44, 44, 44);
+    height: 1px;
+}
+
+.alternative p {
+    color: rgb(231, 233, 234);
+    margin: 0 8px;
+    font-size: 14px;
+}
+
+.cel {
+    height: 44px;
+    width: 300px;
+    border: none;
+    background-color: rgb(29, 155, 240);
+    color: #FFF;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.cel:hover {
+    background-color: rgb(0, 142, 236);
+}
+
+.licence {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 6px;
+    width: 300px;
+}
+
+.licence p {
+    color: rgb(113, 118, 123);
+    font-size: 11px;
+    margin: 0;
+}
+
+.licence a {
+    text-decoration: none;
+    color: rgb(29, 155, 240)
+}
+
+.licence a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    margin-top: 18px;
+}
+
+.login h3 {
+    font-size: 17px;
+}
+
+.login-btn {
+    height: 40px;
+    width: 300px;
+    color: rgb(29, 155, 240);
+    background: none;
+    border: 1px solid rgb(83, 100, 113);
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.login-btn:hover {
+    background-color: rgb(15, 21, 26);
+}
+
+/* footer */
+
+.twitter-footer {
+    padding: 18px 42px;
+    background-color: #000;
+}
+
+.twitter-footer nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.twitter-footer li {
+    list-style: none;
+    padding: 0 8px;
+}
+
+.twitter-footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(113, 118, 123);
+    font-style: italic;
+}
+
+.twitter-footer a:hover {
+    text-decoration: underline;
+}
+
+/* modal style */
+
+.modal-content {
+   background-color: #000;
+   height: 650px;
+   width: 600px;
+   border-radius: 18px;
+}
+
+.btn-close {
+    background-color: #FFF;
+    position: absolute;
+}
+
+
+.modal-title {
+    color: #FFF;
+    margin-left: 54px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-body {
+    padding: 0 80px;
+}
+
+.modal-body h1 {
+    font-size: 31px;
+    color: #FFF;
+}
+
+input:focus {
+    outline: rgb(29, 155, 240) solid 2px;
+}
+
+input:focus {
+    color: rgb(29, 155, 240);
+}
+
+.info-input input {
+    width: 438px;
+    height: 56px;
+    background-color: #000;
+    border: solid 1px rgb(51, 54, 57);
+    border-radius: 5px;
+    padding-left: 12px;
+    font-size: 21px;
+    margin-top: 18px;
+    outline-color: rgb(29, 155, 240);
+    color: #FFF;
+}
+
+form p {
+    text-align: right;
+    margin-top: 16px;
+}
+
+form .changeToEmail {
+    color: rgb(29, 155, 240);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+form .changeToEmail:hover {
+    text-decoration: underline;
+}
+
+
+.modal-body input::placeholder {
+    color: rgb(51, 54, 57);
+}
+
+
+.birth-info h5 {
+    color: #FFF;
+    font-size: 15px;
+}
+
+.p-info {
+    color: rgb(113, 118, 123);
+    font-size: 14px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: none;
+}
+
+.select-container {
+    display: flex;
+}
+
+.select-div {
+    margin-right: 12px;
+    height: 58px;
+    background: none;
+    border: 1px solid rgb(51, 54, 57);
+    border-radius: 5px;
+    padding-right: 8px;
+} 
+
+.select-month {
+    width: 208px;
+}
+
+.select-day {
+    width: 95px;
+}
+
+.select-year {
+    width: 115px;
+}
+
+.select-container select {
+    width: 100%; 
+    height: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    color: #FFF;
+    padding: 25px 0 0 5px;
+}
+
+.select-container p {
+    position: absolute;
+    padding: 10px 0 0 10px;
+    color: rgb(113, 118, 123);
+    font-size: 13px
+}
+
+.option-style {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.btn-footer-modal {
+    background-color: rgb(239, 243, 244);
+    width: 75%;
+    height: 52px;
+    border-radius: 25px;
+    color: #000;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 16px;
+}
+
+.bg-change {
+    filter: invert(0.7);
+    transition: 0.4s;
+}
+
+/* second modal */
+
+.second-modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12px;
+}
+
+.second-modal-btn-close {
+    left: 17px;
+}
+
+
+.second-modal-title i {
+    font-size: 30px;
+    color: rgb(214, 217, 219);
+}
+
+.second-modal-body {
+    min-width: 364px;
+    padding: 32px 32px;
+    margin: auto;
+}
+
+.apple-btn-second-modal {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    width: 300px;
+    background-color: #FFF;
+    border: none;
+    margin: 22px 0 12px 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.apple-btn-second-modal:hover {
+    background-color: rgb(229, 229, 229);
+}
+
+
+.apple-btn-second-modal img {
+    width: 15px;
+    margin-right: 7px;
+}
+
+.info .input-login {
+    width: 300px;
+    height: 56px;
+    background-color: #000;
+    border: solid 1px rgb(51, 54, 57);
+    border-radius: 5px;
+    padding-left: 12px;
+    font-size: 17px;
+    margin-top: 6px;
+    outline-color: rgb(29, 155, 240);
+    color: #FFF;
+    margin-bottom: 12px;
+}
+
+.info .input-login::placeholder {
+    color: rgb(113, 118, 123);
+}
+
+.white-btn-second-modal {
+    font-weight: bold;
+}
+
+.white-btn-second-modal:hover {
+    background-color: rgb(229, 229, 229);
+}
+
+
+.get-password {
+    height: 40px;
+    width: 300px;
+    color: #FFF;
+    background: none;
+    border: 1px solid rgb(83, 100, 113);
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 22px;
+}
+
+.get-password:hover {
+    background-color: rgb(15, 21, 26);
+}
+
+
+.create-account {
+    margin-top: 50px;
+}
+
+.create-account p {
+    color: rgb(113, 118, 123);
+}
+
+/* media query */
+
+@media screen and (max-width: 1000px) {
+    body {
+        height: 100%;
+    }
+    
+    .container-twitter {
+        flex-direction: column-reverse;
+    }
+
+    .landing-page {
+        padding: 36px 148px;
+        width: 100%;
+    }
+
+    .landing-page h1 {
+        font-size: 54px;
+    }
+
+    .twitter-art {
+        width: 100%;
+        min-height: 45vh;
+    }
+
+    .twitter-art img {
+        width: 300px;
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .landing-page {
+        padding: 36px 30px;
+    }
+    
+    .landing-page h1 {
+        font-size: 40px;
+    }
+
+    .landing-page h3 {
+        font-size: 23px;
+    }
+
+    .info .btn-white, .cel, .login-btn, .alternative {
+        width: 240px;
+    }
+
+    .cel {
+        font-size: 12px;
+    }
+
+    .licence {
+        width: 265px;
+    }
+
+    .licence p, a {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+        .modal-content {
+            height: 100vh;  
+        }
+}
+
+@media screen and (min-width: 576px) {
+    .modal-dialog {
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-height: 988px) {
+    .container-twitter {
+        height: 100%;
+    }
+
+    .landing-page h1 {
+        font-size: 65px;
+    }
+}
