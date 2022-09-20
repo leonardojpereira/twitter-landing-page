@@ -1,7 +1,7 @@
 ![IMAGEM ILUSTRATIVA](https://user-images.githubusercontent.com/87662269/191378172-f6c1885b-ab94-4e3d-a65e-90833b8125aa.JPG)
 
 <h1 align="center">
- TWITTER LANDING PAGE :mortar_board:
+ TWITTER LANDING PAGE :rocket:
 </h1>
 
 <h2>
