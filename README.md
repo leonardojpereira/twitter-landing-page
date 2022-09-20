@@ -14,17 +14,22 @@ Esse projeto consiste num clone da página inicial de uma ads maiores redes soci
 O intuito desse projeto é poder colocar em prática o meu conhecimento adquirido ao longo da minha jornada como Desenvolvedor Front-end.
 </p>
 
-## ✔️ Tecnologias utilizadas
-- ``HTML5``
-- ``CSS3``
-- ``JAVASCRIPT``
-- ``BOOTSTRAP``
+## 🛠️ Feito com
+* [Visual Studio Code](https://code.visualstudio.com) - Coding Editor
+
+## 💻 Tecnologias
+<div display="flex">
+  <img align="center" alt="leo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+ <img align="center" alt="leo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+ <img align="center" alt="leo-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+ <img align="center" alt="leo-Bootstrap" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg">
+</div>
 
 ## Imagem / Icones
 
-https://undraw.co/illustrations
-
 https://fontawesome.com/
+
+⌨️ with ❤️ by [Leonardo Barbosa](https://github.com/leonardojpereira) 😊
 
 <h3 align="center">
   
