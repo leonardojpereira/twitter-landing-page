@@ -9,7 +9,7 @@
 </h2>
 
 <p>
-Esse projeto consiste num clone da página inicial de uma ads maiores redes sociais do mundo, o Twitter!
+Esse projeto consiste num clone da página inicial de uma das maiores redes sociais do mundo, o Twitter!
   
 O intuito desse projeto é poder colocar em prática o meu conhecimento adquirido ao longo da minha jornada como Desenvolvedor Front-end.
 </p>
