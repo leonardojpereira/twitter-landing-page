@@ -25,6 +25,12 @@ O intuito desse projeto é poder colocar em prática o meu conhecimento adquirid
  <img align="center" alt="leo-Bootstrap" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg">
 </div>
 
+## :link: Deploy
+
+```
+https://leonardojpereira.github.io/twitter-landing-page/
+```
+
 ## Imagem / Icones
 
 https://fontawesome.com/
